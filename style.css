@@ -1,0 +1,152 @@
+/* Header styles start */
+body{
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+header{
+    display:flex;
+    height: 110px;
+}
+h5,#search-bar,#size-icons,li{
+    display: inline;
+}
+#search-bar{
+    height: 100%;
+    width:100%;
+}
+.links{
+    color: #00a3ee;
+}
+.links:hover{
+    color: #0053ee;
+    font-size: 1.05em;
+    transition: 500ms;
+    cursor: pointer;
+}
+#logo{
+    padding: 20px;
+}
+#upper-row{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 300px;
+    margin-right: 25px;
+    height: 15px;
+}
+#lower-row{
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#right-header{
+    width: 100%;
+    padding-left: 25%;
+    padding-top:25px ;
+    padding-bottom: 25px;
+    padding-right: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+#size-icons{
+    /* margin-right: 20px; */
+    display: flex;
+    align-items: center;
+}
+#enlarge{
+    margin-right: 7px;
+}
+#enlarge,#shrink{
+    background-color: rgb(245, 202, 60,0);
+    border: 0px;
+    transform: scale(1.4);
+}
+#enlarge:hover{
+    transform: scale(1.8);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+#shrink:hover{
+    transform: scale(1);
+    transition: 500ms;
+    cursor: pointer;
+}
+#search-button,#downward-arrow{
+    border-radius: 3px;
+    border: 0;
+    transform: scale(1.23);
+    background-color: #a9a9a9;
+    color: white;
+}
+
+#downward-arrow{
+    margin-left: -8px;
+    border-left: 0.1px solid white;
+}
+#search-button{
+    width: 80px;
+    text-align: left;
+}
+
+
+
+/* Header styles end */
+
+/* Navbar styles start */
+
+nav{
+    /* display: flex;
+    justify-content: center;
+     */
+    background-color: #a9a9a9;
+    
+    width: 100%;
+ 
+    
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+
+    align-items: center;
+    padding-left: 10px;
+    padding-right:10px;
+    margin: 0;
+    
+    height: 45px;
+   
+}
+li{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+    height: 45px;
+    padding: 5px;
+    margin:0 -2px;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+li:hover ,#search-button:hover,#downward-arrow:hover{
+    transform: scale(1.25);
+    background-color: rgb(245, 202, 60);
+    color: black;
+    transition: 300ms ;
+    cursor: pointer;
+}
+.vertical-line{
+    border-left: 0.1px solid white;
+    height: 50px;
+    margin: 0;
+}

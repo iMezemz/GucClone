@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GUC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,44 +17,87 @@
         </div>
         <div id="right-header">
             <div id="upper-row">
+
                 <div id="search-bar">
+
                     <input type="text" placeholder="Search">
-                    <button>Search</button>
-                    <button>&#9660;</button>
+                    <nobr>
+                        <button id="search-button">Search</button>
+                        <button id="downward-arrow">&#9660;</button>
+                    </nobr>
                 </div>
                 <div id="size-icons">
-                    <button id="enlarge"><img src=""></button>
-                    <button id="shrink"><img src=""></button>
+                    <nobr>
+                        <button id="enlarge"><img src="icons/zoomIn.png"></button>
+                        <button id="shrink"><img src="icons/zoomOut.png"></button>
+                    </nobr>
                 </div>
+
             </div>
+
             <div id="lower-row">
-                <h5>Information for:</h5>
+                <nobr>
+                    <span>
+                        <h5>Information for:</h5>
+                    </span>
+                </nobr>
+                <wbr>
                 <a>
-                    <h5>Parents and visitors</h5>
+                    <span class="links">
+                        <h5>Parents and visitors</h5>
+                    </span>
                 </a>
                 <a>
-                    <h5>Prospective students</h5>
+                    <span class="links">
+                        <h5>Prospective students</h5>
+                    </span>
                 </a>
                 <a>
-                    <h5>GUC Alumni</h5>
+                    <span class="links">
+                        <h5>GUC Alumni</h5>
+                    </span>
                 </a>
+
             </div>
         </div>
     </header>
+
     <nav>
         <ul>
+
+            <span class="vertical-line"></span>
             <li>Home</li>
-            <li>About GUC</li>
-            <li>Academic Programs</li>
-            <li>Facilites and Services</li>
+            <span class="vertical-line"></span>
+            <li>
+                About GUC
+            </li>
+            <span class="vertical-line"></span>
+            <li>
+                Academic Programs
+            </li>
+            <span class="vertical-line"></span>
+            <li>
+                Facilites and Services
+            </li>
+            <span class="vertical-line"></span>
             <li>Admission</li>
+            <span class="vertical-line"></span>
             <li>Research</li>
-            <li>Student Life</li>
+            <span class="vertical-line"></span>
+            <li>
+                Student Life
+            </li>
+            <span class="vertical-line"></span>
             <li>Media Production Center</li>
+            <span class="vertical-line"></span>
             <li>Jobs</li>
+            <span class="vertical-line"></span>
             <li>Center of Continuing Education</li>
+            <span class="vertical-line"></span>
+
         </ul>
     </nav>
+
     <main>
         <div id="changing-image"></div>
         <div id="cards-container">

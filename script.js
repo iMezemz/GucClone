@@ -1,6 +1,7 @@
 let imageDiv = document.getElementById("changing-image");
 let i = 0;
 let captions = ["The B Building inside the GUC campus","The GUC Library","The C Building inside the GUC campus"];
+let currentFontSize = 1;
 let changeImage = () => {
     let classList = imageDiv.classList;
     switch(i){
@@ -46,6 +47,14 @@ document.addEventListener("scroll",()=>{
     let navbar = document.querySelector("nav");
     navbar.classList.toggle("stick",window.scrollY>135);
 });
+document.getElementById("enlarge").addEventListener("click",()=>{
+    currentFontSize+=0.1;
+    document.getElementsByTagName("body")[0].style.fontSize = currentFontSize + "em";
+})
+document.getElementById("shrink").addEventListener("click",()=>{
+    currentFontSize-=0.1;
+    document.getElementsByTagName("body")[0].style.fontSize = currentFontSize + "em";
+})
 
 
 

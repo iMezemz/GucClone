@@ -151,14 +151,18 @@ nav {
         position: fixed;
         top: 0;
         animation: fadein 1500ms;
-        height: 8.05%;
+        height: auto;
     }
 
-    ul {
+    /* ul {
         height: 8.05%;
     }
 
     li {
+        height: 8.05%;
+    } */
+
+    .vertical-line {
         height: 8.05%;
     }
 
@@ -166,7 +170,7 @@ nav {
 
 
     header {
-        margin-top: 40px;
+        margin-top: 10%;
         width: 100%;
     }
 
@@ -177,6 +181,8 @@ nav {
     #right-header {
         padding-right: 0;
     }
+
+
 
 }
 
@@ -277,7 +283,8 @@ li:hover,
 
 article {
     padding: 20px;
-    margin: 75px;
+    margin: 2%;
+    width: 30%;
     border: 1px solid rgb(129, 129, 129);
     border-radius: 5px;
     color: #414040;
